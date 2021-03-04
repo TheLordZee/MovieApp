@@ -1,0 +1,85 @@
+body{ 
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#main-heading {
+    text-align: center;
+}
+
+h1 {
+    display: block;
+}
+
+#new-movie-form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5vh;
+}
+
+input {
+    margin-left: 4vw;
+    margin-right: 3vw;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: 1rem;
+}
+
+tr {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(185, 185, 185);
+}
+
+button{
+    display: inline-block;
+    position: relative;
+    color: white;
+    transition: background-color .5s, transform .3s;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#submit {
+    background-color: rgb(6, 164, 255);
+}
+.delete {
+    background-color: red;
+}
+
+#submit:hover{
+    background-color: rgb(0, 91, 196);
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: rgb(196, 0, 0);
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1.05);
+}
+button:focus {
+    outline: none;
+}
+
